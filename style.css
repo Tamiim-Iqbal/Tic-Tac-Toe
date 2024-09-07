@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+body{
+    background-color: #548687;
+    /* background-color: rgb(87,186,172); */
+    text-align: center;
+    font-family: "Manrope", system-ui;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#msg{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    color: rgb(7, 31, 29);
+    color: whitesmoke;
+}
+.container{
+    height: 70vh;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+
+}
+.game{
+    background-color: rgb(87,186,172);
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vmin;
+}
+
+.box{
+    background-color: #548687;
+    height: 19.31vmin;
+    width: 19.33vmin;
+    border: none;
+    border-radius: 5px;
+    font-size: 15vmin;
+    color: rgb(7, 31, 29);
+
+}
+
+#reset-btn, #new-btn{
+    margin-top: 1rem;
+    background-color: #264b4c;
+    border: none;
+    color: rgb(46, 191, 179);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.6rem 1rem;
+    border-radius: 1rem;
+}
+
+.hide{
+    display: none;
+}
