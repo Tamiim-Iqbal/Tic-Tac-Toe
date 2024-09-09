@@ -1,6 +1,6 @@
 <h2 align="center"> Tic Tac Toe </h2>
 
-<h6> Classic Tic-Tac-Toe game with JavaScript! 🎮 </h6>
+<h6> Classic Tic Tac Toe game with JavaScript! 🎮 </h6>
 
 ### Game Features : 
 
